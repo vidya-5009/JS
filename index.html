@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoonya API Integration</title>
+</head>
+<body>
+    <h1>Shoonya API Integration</h1>
+    <div>
+        <label for="stockSymbol">Enter Stock Symbol: </label>
+        <input type="text" id="stockSymbol" placeholder="e.g. NSE|22">
+        <button id="subscribeButton">Subscribe</button>
+    </div>
+    <div id="stockData"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
